@@ -1,0 +1,131 @@
+/* ============================================================================================== 
+    Document   : main projects css
+    Created on : 04/04/2016
+    Author     : Sheldon Led
+    Description: All style of my github web site may be here
+================================================================================================= */
+.projects a,.projects a:visited,.projects a:link {
+  color: #FFF;
+}
+.projects a:hover {
+  color: #B495EA;
+  border-bottom: 1px solid #FFF;
+}
+
+/**************************************************
+ * HEADER
+ **************************************************/
+header.header {
+  background: url(../assets/img/code.jpg) no-repeat;
+  background-size: cover;
+}
+header.header a:hover {
+  border-bottom: 2px solid #000;
+}
+header.header a {
+  color: rgb(0,0,0);
+}
+header.header a.active {
+  color: #FFF;
+  background: rgba(0,0,0,0.5);
+  padding: 0 5px;
+}
+header.header .logo  {
+  height: 50%;
+  width: auto;
+  margin: 10px auto;
+}
+header.header h1 {
+  font-size: 1.8em;
+  color: #FFF;
+}
+/**************************************************
+ * PROJECTS
+ **************************************************/
+section.projects {
+  padding: 50px 0;
+  background-color: #1C0A3C;
+  border-bottom: 2px solid white;
+}
+.project {
+  float:left;
+  width: 100%;
+  height: 450px;
+  margin: 0 2%;
+  color: white;
+  text-align:center;
+}
+.project.website {
+  height: 800px;
+}
+.project p {
+  color: #B388FF;
+}
+.project img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+}
+.tech {
+  width: 100%;
+}
+.tech span {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 5px;
+  padding: 10px 20px 5px;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+}
+.tech span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #1C0A3C #1C0A3C #BBB #BBB;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  /* Firefox 3.0 damage limitation */
+  display: block; width: 0;
+  background: #BBB;
+  display: block;
+  width: 0;
+}
+.tech span:after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 3px;
+  border: 5px solid #1C0A3C;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+}
+
+/**************************************************
+ * FOOTER
+ **************************************************/
+#footer {
+  padding: 0.8%;
+  background: rgb(120,120,120);
+  font-size: 1.8em;
+  color: rgb(255,255,255);
+  text-align: center;
+  margin-top: 15px;
+  box-shadow: 0 15px 15px 20px rgba(0,0,0,.3);
+}
+#footer a { 
+  color: rgb(255,255,255);
+}
+#footer p {
+  font-size: 0.5em;
+}

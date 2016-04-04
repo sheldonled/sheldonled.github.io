@@ -1,0 +1,22 @@
+{
+  "name": "sheldonled",
+  "version": "2.0.0",
+  "description": "Sheldon Led (projects and talks) website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "~3.8.7",
+    "gulp-minify-css": "~0.3.7"
+  },
+  "devDependencies": {
+    "gulp-minify-css": "^0.3.7",
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4",
+    "gulp-uglify": "^0.3.1",
+    "gulp-jshint": "^1.8.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sheldon Led",
+  "license": "ISC"
+}

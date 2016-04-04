@@ -1,0 +1,48 @@
+/* ============================================================================================== 
+  Document   : queries
+  Created on : 01/08/2014
+  Author     : Sheldon Led
+  Description: Media queries
+================================================================================================= */
+@media (min-width: 600px) {
+  .project {
+    width: 20%;
+    height: 550px;
+  }
+  .project img{
+    width: 80%;
+  }
+  .project.website {
+    width: 28%;
+  }
+  header h1 {
+    font-size: 3.5em;
+  }
+  header .logo {
+    margin: 8% auto;
+  }
+  .menu a {
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 960px) {
+  .project {
+    height: 500px;
+  }
+  header h1 {
+    font-size: 4.5em;
+  }
+  header .logo {
+    width: 20%;
+    margin: 5% auto;
+  }
+  .menu a {
+    font-size: 1.5em;
+  }
+}
+@media (orientation: landscape) {
+  header .logo {
+    width: 20%;
+    margin: 2% auto;
+  }
+}
