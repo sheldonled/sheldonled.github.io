@@ -88,7 +88,7 @@ section.projects {
   right: 0;
   border-width: 0 16px 16px 0;
   border-style: solid;
-  border-color: #1C0A3C #1C0A3C #BBB #BBB;
+  border-color: #ededed #ededed #BBB #BBB;
   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
   -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
   box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
@@ -103,7 +103,7 @@ section.projects {
   position: absolute;
   top: 40%;
   left: 3px;
-  border: 5px solid #1C0A3C;
+  border: 5px solid #ededed;
   border-radius: 100%;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
