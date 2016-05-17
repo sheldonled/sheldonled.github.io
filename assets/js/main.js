@@ -95,28 +95,23 @@
   });
 
 
-
   /**
    * Function to scroll the screen to the target element
    */
-  function slideTo(event, id) {
+  function slideTo(event, id, top) {
      if (event.preventDefault) { 
         event.preventDefault();
      } else {
         event.returnValue = false; 
      }
-      time = 500;
-      x = 0;
+
       if(id == "top") {
           y = 0;
       } else {
-          console.log( document.getElementById(id).offsetTop);
           y = document.getElementById(id).offsetTop;
           y = y;
       }
-      decelRate = 1;
-      interval = 25;
-      slideTo_h(x, y, time, decelRate, interval, (new Date()).getTime());
+      slideTo_h(0, y, 500, 1, 25, (new Date()).getTime());
 
       function slideTo_h(x, y, time, decelRate, interval, dateTime) {
           if (time <= 0) {
