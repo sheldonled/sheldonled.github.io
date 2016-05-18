@@ -162,7 +162,21 @@
     view.style.display = "block";
     view.style.top = hiddenPos+"px";
     showDetail(view,(document.documentElement.scrollTop || document.body.scrollTop),5); 
-    window.onscroll = function(){document.getElementById("prjDetails").style.top = (document.documentElement.scrollTop || document.body.scrollTop)+"px";};
+    window.onscroll = function(){
+      var detailTop     = parseInt(document.getElementById("prjDetails").style.top),
+          windowTop     = (document.documentElement.scrollTop || document.body.scrollTop),
+          detailHeight  = document.getElementById("prjDetails").offsetHeight,
+          windowHeight  = window.innerHeight;
+
+          if(detailTop >= windowTop) {
+            document.getElementById("prjDetails").style.top = (document.documentElement.scrollTop || document.body.scrollTop)+"px";
+          } else {
+            diffBottom = Math.abs(detailTop - windowTop) - Math.abs(detailHeight - windowHeight);
+            if(diffBottom > 0) {
+              document.getElementById("prjDetails").style.top = (detailTop+diffBottom)+"px";
+            }
+          }
+    };
   }
 
 
