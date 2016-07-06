@@ -1,59 +1,60 @@
 (function() {
 
   //Adding Listeners
-  window.onload = function(){
-    document.querySelectorAll("#prjDetails .close")[0].addEventListener('click',function(e){closeDetailProject();});
+  document.querySelectorAll("#prjDetails .close")[0].addEventListener('click',function(e){closeDetailProject();});
 
-    //Easy GD
-    document.querySelectorAll(".easygd img")[0].addEventListener('click',function(e){
-      detailProject({"id":"easygd","name":"Easy GD","img":"assets/img/easygd.png","url":"https://github.com/sheldonled/easygd"});
-    });
-    //FootNotes
-    document.querySelectorAll(".footnotes img")[0].addEventListener('click',function(e){
-      detailProject({"id":"footnotes","name":"FootNotes","img":"assets/img/footnotes.png","url":"https://github.com/sheldonled/footnotes"});
-    });
-    //Coplacar
-    document.querySelectorAll(".coplacar img")[0].addEventListener('click',function(e){
-      detailProject({"id":"coplacar","name":"Coplacar","img":"assets/img/coplacar.png","url":"https://github.com/sheldonled/coplacar"});
-    });
-    //FGSL
-    document.querySelectorAll(".fgsl img")[0].addEventListener('click',function(e){
-      detailProject({"id":"fgsl","name":"FGSL","img":"assets/img/fgsl.png","url":"https://github.com/sheldonled/fgslwebapp"});
-    });
-    //Play Compras
-    document.querySelectorAll(".playcompras img")[0].addEventListener('click',function(e){
-      detailProject({"id":"playcompras","name":"Play Compras","img":"assets/img/playcompras.png","url":"https://github.com/sheldonled/playcompras"});
-    });
-    //Music Fun
-    document.querySelectorAll(".musicfun img")[0].addEventListener('click',function(e){
-      detailProject({"id":"musicfun","name":"Music Fun","img":"assets/img/musicfun.png","url":"https://github.com/sheldonled/musicfun"});
-    });
-    //Alfa Notas
-    document.querySelectorAll(".alfanotas img")[0].addEventListener('click',function(e){
-      detailProject({"id":"alfanotas","name":"Alfa Notas","img":"assets/img/alfanotas.png","url":"https://github.com/sheldonled/alfanotas"});
-    });
-    //RAP
-    document.querySelectorAll(".rap img")[0].addEventListener('click',function(e){
-      detailProject({"id":"rap","name":"RAP","img":"assets/img/rap.png","url":"https://github.com/sheldonled/rap"});
-    });
-    //Boleto Check
-    document.querySelectorAll(".boletocheck img")[0].addEventListener('click',function(e){
-      detailProject({"id":"boletocheck","name":"Boleto Check","img":"assets/img/boletocheck.png","url":"https://github.com/sheldonled/boletocheck"});
-    });
-    //SEMED
-    document.querySelectorAll(".semed img")[0].addEventListener('click',function(e){
-      detailProject({"id":"semed","name":"SEMED","img":"assets/img/semed.png","url":"http://projetos.ledlabs.com.br/semed"});
-    });
-    //FLISOL 2016
-    document.querySelectorAll(".flisol img")[0].addEventListener('click',function(e){
-      detailProject({"id":"flisol","name":"FLISOL 2016","img":"assets/img/flisol.png","url":"http://gyn.flisol.fgsl.net/"});
-    });
-    //Loboratório Santa Inês
-    document.querySelectorAll(".labsantaines img")[0].addEventListener('click',function(e){
-      detailProject({"id":"labsantaines","name":"Laboratório Santa Inês","img":"assets/img/labsantaines.png","url":"http://www.labsantaines.com/novosite/"});
-    });
-
-  };
+  //Easy GD
+  document.querySelectorAll(".easygd img")[0].addEventListener('click',function(e){
+    detailProject({"id":"easygd","name":"Easy GD","img":"assets/img/easygd.png","url":"https://github.com/sheldonled/easygd"});
+  });
+  //FootNotes
+  document.querySelectorAll(".footnotes img")[0].addEventListener('click',function(e){
+    detailProject({"id":"footnotes","name":"FootNotes","img":"assets/img/footnotes.png","url":"https://github.com/sheldonled/footnotes"});
+  });
+  //Coplacar
+  document.querySelectorAll(".coplacar img")[0].addEventListener('click',function(e){
+    detailProject({"id":"coplacar","name":"Coplacar","img":"assets/img/coplacar.png","url":"https://github.com/sheldonled/coplacar"});
+  });
+  //FGSL
+  document.querySelectorAll(".fgsl img")[0].addEventListener('click',function(e){
+    detailProject({"id":"fgsl","name":"FGSL","img":"assets/img/fgsl.png","url":"https://github.com/sheldonled/fgslwebapp"});
+  });
+  //Play Compras
+  document.querySelectorAll(".playcompras img")[0].addEventListener('click',function(e){
+    detailProject({"id":"playcompras","name":"Play Compras","img":"assets/img/playcompras.png","url":"https://github.com/sheldonled/playcompras"});
+  });
+  //Music Fun
+  document.querySelectorAll(".musicfun img")[0].addEventListener('click',function(e){
+    detailProject({"id":"musicfun","name":"Music Fun","img":"assets/img/musicfun.png","url":"https://github.com/sheldonled/musicfun"});
+  });
+  //Alfa Notas
+  document.querySelectorAll(".alfanotas img")[0].addEventListener('click',function(e){
+    detailProject({"id":"alfanotas","name":"Alfa Notas","img":"assets/img/alfanotas.png","url":"https://github.com/sheldonled/alfanotas"});
+  });
+  //RAP
+  document.querySelectorAll(".rap img")[0].addEventListener('click',function(e){
+    detailProject({"id":"rap","name":"RAP","img":"assets/img/rap.png","url":"https://github.com/sheldonled/rap"});
+  });
+  //Boleto Check
+  document.querySelectorAll(".boletocheck img")[0].addEventListener('click',function(e){
+    detailProject({"id":"boletocheck","name":"Boleto Check","img":"assets/img/boletocheck.png","url":"https://github.com/sheldonled/boletocheck"});
+  });
+  //SEMED
+  document.querySelectorAll(".semed img")[0].addEventListener('click',function(e){
+    detailProject({"id":"semed","name":"SEMED","img":"assets/img/semed.png","url":"http://projetos.sheldonled.com/semed"});
+  });
+  //DGI - Etica Online
+  document.querySelectorAll(".eticaonline img")[0].addEventListener('click',function(e){
+    detailProject({"id":"eticaonline","name":"DGI - Etica Online","img":"assets/img/eticaonline.png","url":"http://www.eticaonline.com.br/novo"});
+  });
+  //FLISOL 2016
+  document.querySelectorAll(".flisol img")[0].addEventListener('click',function(e){
+    detailProject({"id":"flisol","name":"FLISOL 2016","img":"assets/img/flisol.png","url":"http://gyn.flisol.fgsl.net/"});
+  });
+  //Loboratório Santa Inês
+  document.querySelectorAll(".labsantaines img")[0].addEventListener('click',function(e){
+    detailProject({"id":"labsantaines","name":"Laboratório Santa Inês","img":"assets/img/labsantaines.png","url":"http://www.labsantaines.com/novosite/"});
+  });
 
   //Closing the detail view by ESC key
   document.onkeyup = function(e){
@@ -131,6 +132,14 @@
       case "boletocheck":
         prjDesc.innerHTML = "<p>It's a piece of PHP code that checks the sequence of numbers code "+
         "of a bank slip and output the values so that you can check if it's all right with the bank slip itself.</p>";
+        break;
+      case "eticaonline":
+        prjDesc.innerHTML = "<p>My work on this project was to develop a system that gets information "+
+        "from a bunch of web services, and retrieves financial information about a particular person. "+
+        "I also developed the website, in which I used only pure PHP to perform the server side "+
+        "and pure HTML, JS and CSS to perform the Front end.</p>"+
+        "<div class='tech'><span>PHP</span><span>WordPress</span><span>MySQL</span><span>Interbase</span><span>HTML</span>"+
+        "<span>JavaScript</span><span>CSS</span></div>";
         break;
       case "semed":
         prjDesc.innerHTML = "<p>My work on this project was to develop a WordPress Theme, "+

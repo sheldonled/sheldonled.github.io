@@ -1,9 +1,3 @@
-/* ============================================================================================== 
-    Document   : main projects css
-    Created on : 04/04/2016
-    Author     : Sheldon Led
-    Description: All style of my github web site may be here
-================================================================================================= */
 .projects a,.projects a:visited,.projects a:link {
   color: #FFF;
 }
@@ -50,7 +44,7 @@ section.projects {
 .project {
   float:left;
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   margin: 0 2%;
   color: white;
   text-align:center;
@@ -171,7 +165,7 @@ section.projects {
   font-size: 1.8em;
   color: rgb(255,255,255);
   text-align: center;
-  margin-top: 15px;
+  margin: 0;
   box-shadow: 0 15px 15px 20px rgba(0,0,0,.3);
 }
 #footer a { 

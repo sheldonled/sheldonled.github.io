@@ -9,18 +9,6 @@
             slideTo(e, "blogs");
         });
     }
-    
-    /**
-     * Function to scroll the screen to the target element
-     */
-    (function(){
-      footer = document.getElementById("footer");
-      if (footer){
-        xhr("../footer.html", function(data){
-          footer.innerHTML = data;
-        });
-      }
-    }());
 
     /**
      * Handling the view in about page
@@ -93,58 +81,4 @@
        alert("You wouldn't see this site right! \n\nGet a modern browser like: Firefox or Chrome!");
     }
   });
-
-
-  /**
-   * Function to scroll the screen to the target element
-   */
-  function slideTo(event, id, top) {
-     if (event.preventDefault) { 
-        event.preventDefault();
-     } else {
-        event.returnValue = false; 
-     }
-
-      if(id == "top") {
-          y = 0;
-      } else {
-          y = document.getElementById(id).offsetTop;
-          y = y;
-      }
-      slideTo_h(0, y, 500, 1, 25, (new Date()).getTime());
-
-      function slideTo_h(x, y, time, decelRate, interval, dateTime) {
-          if (time <= 0) {
-              window.scrollTo(x, y);
-              return;
-          }
-          var delay = interval + dateTime - (new Date()).getTime();
-          setTimeout(function() { slideTo_h(x, y, time - interval * decelRate, decelRate, interval, dateTime + interval); }, (delay > 0 ? delay : 0));
-          var m = interval / time;
-          var rateX = (x - (document.documentElement.scrollLeft || document.body.scrollLeft)) * m;
-          var rateY = (y - (document.documentElement.scrollTop || document.body.scrollTop)) * m;
-          window.scrollBy(rateX, rateY);
-      }
-  }
-  function xhr(url, cb) {
-    request = new XMLHttpRequest();
-    request.open('GET', url, true);
-
-    request.onload = function() {
-      if (request.status >= 200 && request.status < 400){
-        // Success!
-        cb(request.responseText);
-      } else {
-        // We reached our target server, but it returned an error
-        cb("");
-      }
-    };
-
-    request.onerror = function() {
-      // There was a connection error of some sort
-      cb("");
-    };
-
-    request.send();
-  }
 }());
