@@ -3,58 +3,165 @@
   //Adding Listeners
   document.querySelectorAll("#prjDetails .close")[0].addEventListener('click',function(e){closeDetailProject();});
 
-  //Easy GD
-  document.querySelectorAll(".easygd img")[0].addEventListener('click',function(e){
-    detailProject({"id":"easygd","name":"Easy GD","img":"assets/img/easygd.png","url":"https://github.com/sheldonled/easygd"});
-  });
-  //FootNotes
-  document.querySelectorAll(".footnotes img")[0].addEventListener('click',function(e){
-    detailProject({"id":"footnotes","name":"FootNotes","img":"assets/img/footnotes.png","url":"https://github.com/sheldonled/footnotes"});
-  });
-  //Coplacar
-  document.querySelectorAll(".coplacar img")[0].addEventListener('click',function(e){
-    detailProject({"id":"coplacar","name":"Coplacar","img":"assets/img/coplacar.png","url":"https://github.com/sheldonled/coplacar"});
-  });
-  //FGSL
-  document.querySelectorAll(".fgsl img")[0].addEventListener('click',function(e){
-    detailProject({"id":"fgsl","name":"FGSL","img":"assets/img/fgsl.png","url":"https://github.com/sheldonled/fgslwebapp"});
-  });
-  //Play Compras
-  document.querySelectorAll(".playcompras img")[0].addEventListener('click',function(e){
-    detailProject({"id":"playcompras","name":"Play Compras","img":"assets/img/playcompras.png","url":"https://github.com/sheldonled/playcompras"});
-  });
-  //Music Fun
-  document.querySelectorAll(".musicfun img")[0].addEventListener('click',function(e){
-    detailProject({"id":"musicfun","name":"Music Fun","img":"assets/img/musicfun.png","url":"https://github.com/sheldonled/musicfun"});
-  });
-  //Alfa Notas
-  document.querySelectorAll(".alfanotas img")[0].addEventListener('click',function(e){
-    detailProject({"id":"alfanotas","name":"Alfa Notas","img":"assets/img/alfanotas.png","url":"https://github.com/sheldonled/alfanotas"});
-  });
-  //RAP
-  document.querySelectorAll(".rap img")[0].addEventListener('click',function(e){
-    detailProject({"id":"rap","name":"RAP","img":"assets/img/rap.png","url":"https://github.com/sheldonled/rap"});
-  });
-  //Boleto Check
-  document.querySelectorAll(".boletocheck img")[0].addEventListener('click',function(e){
-    detailProject({"id":"boletocheck","name":"Boleto Check","img":"assets/img/boletocheck.png","url":"https://github.com/sheldonled/boletocheck"});
-  });
-  //SEMED
-  document.querySelectorAll(".semed img")[0].addEventListener('click',function(e){
-    detailProject({"id":"semed","name":"SEMED","img":"assets/img/semed.png","url":"http://projetos.sheldonled.com/semed"});
-  });
-  //DGI - Etica Online
-  document.querySelectorAll(".eticaonline img")[0].addEventListener('click',function(e){
-    detailProject({"id":"eticaonline","name":"DGI - Etica Online","img":"assets/img/eticaonline.png","url":"http://www.eticaonline.com.br/novo"});
-  });
-  //FLISOL 2016
-  document.querySelectorAll(".flisol img")[0].addEventListener('click',function(e){
-    detailProject({"id":"flisol","name":"FLISOL 2016","img":"assets/img/flisol.png","url":"http://gyn.flisol.fgsl.net/"});
-  });
-  //Loboratório Santa Inês
-  document.querySelectorAll(".labsantaines img")[0].addEventListener('click',function(e){
-    detailProject({"id":"labsantaines","name":"Laboratório Santa Inês","img":"assets/img/labsantaines.png","url":"http://www.labsantaines.com/novosite/"});
-  });
+//English
+  try{
+    //Easy GD
+    document.querySelectorAll(".easygd img")[0].addEventListener('click',function(e){
+      detailProject({"id":"easygd","name":"Easy GD","img":"assets/img/easygd.png","url":"http://github.sheldonled.com/easygd/"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //FootNotes
+    document.querySelectorAll(".footnotes img")[0].addEventListener('click',function(e){
+      detailProject({"id":"footnotes","name":"FootNotes","img":"assets/img/footnotes.png","url":"http://github.sheldonled.com/footnotes"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Coplacar
+    document.querySelectorAll(".coplacar img")[0].addEventListener('click',function(e){
+      detailProject({"id":"coplacar","name":"Coplacar","img":"assets/img/coplacar.png","url":"http://github.sheldonled.com/coplacar"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //FGSL
+    document.querySelectorAll(".fgsl img")[0].addEventListener('click',function(e){
+      detailProject({"id":"fgsl","name":"FGSL","img":"assets/img/fgsl.png","url":"http://github.sheldonled.com/fgslwebapp"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Play Compras
+    document.querySelectorAll(".playcompras img")[0].addEventListener('click',function(e){
+      detailProject({"id":"playcompras","name":"Play Compras","img":"assets/img/playcompras.png","url":"http://github.sheldonled.com/playcompras"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Music Fun
+    document.querySelectorAll(".musicfun img")[0].addEventListener('click',function(e){
+      detailProject({"id":"musicfun","name":"Music Fun","img":"assets/img/musicfun.png","url":"http://github.sheldonled.com/musicfun"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Alfa Notas
+    document.querySelectorAll(".alfanotas img")[0].addEventListener('click',function(e){
+      detailProject({"id":"alfanotas","name":"Alfa Notas","img":"assets/img/alfanotas.png","url":"http://github.sheldonled.com/alfanotas"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //RAP
+    document.querySelectorAll(".rap img")[0].addEventListener('click',function(e){
+      detailProject({"id":"rap","name":"RAP","img":"assets/img/rap.png","url":"http://github.com/sheldonled/rap"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Boleto Check
+    document.querySelectorAll(".boletocheck img")[0].addEventListener('click',function(e){
+      detailProject({"id":"boletocheck","name":"Boleto Check","img":"assets/img/boletocheck.png","url":"http://github.com/sheldonled/boletocheck"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //SEMED
+    document.querySelectorAll(".semed img")[0].addEventListener('click',function(e){
+      detailProject({"id":"semed","name":"SEMED","img":"assets/img/semed.png","url":"http://projetos.sheldonled.com/semed"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //DGI - Etica Online
+    document.querySelectorAll(".eticaonline img")[0].addEventListener('click',function(e){
+      detailProject({"id":"eticaonline","name":"DGI - Etica Online","img":"assets/img/eticaonline.png","url":"http://www.eticaonline.com.br/novo"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //FLISOL 2016
+    document.querySelectorAll(".flisol img")[0].addEventListener('click',function(e){
+      detailProject({"id":"flisol","name":"FLISOL 2016","img":"assets/img/flisol.png","url":"http://gyn.flisol.fgsl.net/"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Loboratório Santa Inês
+    document.querySelectorAll(".labsantaines img")[0].addEventListener('click',function(e){
+      detailProject({"id":"labsantaines","name":"Laboratório Santa Inês","img":"assets/img/labsantaines.png","url":"http://www.labsantaines.com/novosite/"});
+    });
+  } catch (e){} //do nothing
+
+//Portuguese
+  try{
+    //Easy GD
+    document.querySelectorAll(".pt-easygd img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-easygd","name":"Easy GD","img":"../assets/img/easygd.png","url":"http://github.sheldonled.com/easygd"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //FootNotes
+    document.querySelectorAll(".pt-footnotes img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-footnotes","name":"FootNotes","img":"../assets/img/footnotes.png","url":"http://github.sheldonled.com/footnotes"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Coplacar
+    document.querySelectorAll(".pt-coplacar img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-coplacar","name":"Coplacar","img":"../assets/img/coplacar.png","url":"http://github.sheldonled.com/coplacar"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //FGSL
+    document.querySelectorAll(".pt-fgsl img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-fgsl","name":"FGSL","img":"../assets/img/fgsl.png","url":"http://github.sheldonled.com/fgslwebapp"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Play Compras
+    document.querySelectorAll(".pt-playcompras img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-playcompras","name":"Play Compras","img":"../assets/img/playcompras.png","url":"http://github.sheldonled.com/playcompras"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Music Fun
+    document.querySelectorAll(".pt-musicfun img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-musicfun","name":"Music Fun","img":"../assets/img/musicfun.png","url":"http://github.sheldonled.com/musicfun"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Alfa Notas
+    document.querySelectorAll(".pt-alfanotas img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-alfanotas","name":"Alfa Notas","img":"../assets/img/alfanotas.png","url":"http://github.sheldonled.com/alfanotas"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //RAP
+    document.querySelectorAll(".pt-rap img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-rap","name":"RAP","img":"../assets/img/rap.png","url":"http://github.com/sheldonled/rap"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Boleto Check
+    document.querySelectorAll(".pt-boletocheck img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-boletocheck","name":"Boleto Check","img":"../assets/img/boletocheck.png","url":"http://github.com/sheldonled/boletocheck"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //SEMED
+    document.querySelectorAll(".pt-semed img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-semed","name":"SEMED","img":"../assets/img/semed.png","url":"http://projetos.sheldonled.com/semed"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //DGI - Etica Online
+    document.querySelectorAll(".pt-eticaonline img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-eticaonline","name":"DGI - Etica Online","img":"../assets/img/eticaonline.png","url":"http://www.eticaonline.com.br/novo"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //FLISOL 2016
+    document.querySelectorAll(".pt-flisol img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-flisol","name":"FLISOL 2016","img":"../assets/img/flisol.png","url":"http://gyn.flisol.fgsl.net/"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Loboratório Santa Inês
+    document.querySelectorAll(".pt-labsantaines img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-labsantaines","name":"Laboratório Santa Inês","img":"../assets/img/labsantaines.png","url":"http://www.labsantaines.com/novosite/"});
+    });
+  } catch (e){} //do nothing
 
   //Closing the detail view by ESC key
   document.onkeyup = function(e){
@@ -101,7 +208,7 @@
       case "footnotes":
         prjDesc.innerHTML = "<p>A piece of JavaScript/JQuery code that shows notes about "+
         "something in your website. The best way to understand is to "+
-        "<a href='https://github.com/sheldonled/footnotes' target='_blank'>Take a look</a>.</p>";
+        "<a href='http://github.sheldonled.com/footnotes' target='_blank'>Take a look</a>.</p>";
         break;
       case "coplacar":
         prjDesc.innerHTML = "<p>Coplacar is a webapp that shows the placar of the world cup games of 2014. "+
@@ -159,6 +266,79 @@
         "using the design developed by <a href='http://www.ederferreira.com.br/' target='_blank'>Eder Ferreira</a>. "+
         "After, I developed 2 Joomla Components (Curriculum subscribe and Costumers subscribe) and one module "+
         "(Disease Internacinal Code Searching).</p>"+
+        "<div class='tech'><span>PHP</span><span>Joomla</span><span>MySQL</span><span>HTML</span>"+
+        "<span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
+        break;
+//Portuguese
+
+      case "pt-easygd":
+        prjDesc.innerHTML = "<p>Easy GD é um projeto que usa a API do Google Drive "+
+        "para gerenciar arquivos na sua conta do Google Drive. Isto é um projeto simples, "+
+        "não tem características especiais. O principal objetivo deste projeto é mostrar "+
+        "o quão simples é trabalhar com a API Google Drive.</p>";
+        break;
+      case "pt-footnotes":
+        prjDesc.innerHTML = "<p>Um pedaço de código JavaScript/JQuery que mostra notas sobre "+
+        "alguma coisa no seu site. A melhor forma de entender este projeto é "+
+        "<a href='http://github.sheldonled.com/footnotes' target='_blank'>Ver uma demonstração online</a>.</p>";
+        break;
+      case "pt-coplacar":
+        prjDesc.innerHTML = "<p>Coplacar é uma WebApp que mostra o placar da Copa do Mundo de 2014. "+
+        "Tudo começou com um pequeno pedaço de código que o professor Fernando Masanori postou como "+
+        "<a href='https://gist.github.com/fmasanori/1288160dad16cc473a53' target='_blank'>Jogos da Copa do Mundo em seis linhas de Python 3</a>, "+
+        "Eu vi que o link obtinha os resultados dos jogos em um arquivo JSON, então eu decidi fazer um App com isso.</p>";
+        break;
+      case "pt-fgsl":
+        prjDesc.innerHTML = "<p>Uma WebApp que mostra informação sobre um evento local em Goiânia - Goiás, chamado"+
+        " <a href=http://fgsl.net' target='_blank'>FGSL (Fórum Goiano de Software Livre)</a>.</p> ";
+        break;
+      case "pt-playcompras":
+        prjDesc.innerHTML = "<p>Uma WebApp que permite usuários adicionarem itens em uma lista e verem o valor total "+
+        "que eles irão gastar.</p>";
+        break;
+      case "pt-musicfun":
+        prjDesc.innerHTML = "<p>Um exemplo de WebApp usando oscilador da API Web Audio</p>";
+        break;
+      case "pt-alfanotas":
+        prjDesc.innerHTML = "<p>Uma WebApp que permite os estudantes da "+
+        "<a href='http://www.alfa.br' target='_blank'>Faculdade Alfa</a> calcularem suas notas.</p>";
+        break;
+      case "pt-rap":
+        prjDesc.innerHTML = "<p>É uma espécie de boilerplate, ou Prova de conceito "+
+        "de como usar REST com PHP e fazer uma API para ser acessada utilizando AngularJS</p>"+
+        "<p>RAP é uma sigla para REST AngularJS and PHP</p>";
+        break;
+      case "pt-boletocheck":
+        prjDesc.innerHTML = "<p>É um pedaço de código em PHP que checa a linha digitável "+
+        "de um boleto e mostra os valores possíveis de serem extraídos, para que você possa "+
+        "checar a informação e verificar se a linha digitável está correta.</p>";
+        break;
+      case "pt-eticaonline":
+        prjDesc.innerHTML = "<p>Meu trabalho neste projeto foi desenvolver um sistema que obtem informação "+
+        "de vários web services, e retorna informações financeiras sobre uma pessoa ou empresa. "+
+        "Eu também desenvolvi o site, no qual foi usado apenas PHP puro no servidor "+
+        "e HTML, JS and CSS puro para o Front end. Ambas as partes sem nenhum framework ou biblioteca.</p>"+
+        "<div class='tech'><span>PHP</span><span>MySQL</span><span>Interbase</span><span>HTML</span>"+
+        "<span>JavaScript</span><span>CSS</span></div>";
+        break;
+      case "pt-semed":
+        prjDesc.innerHTML = "<p>Meu trabalho neste projeto foi desenvoler um tema para WordPress, "+
+        "baseado no design que eu criei de acordo com as ideias do cliente.</p>"+
+        "<div class='tech'><span>PHP</span><span>WordPress</span><span>MySQL</span><span>HTML</span>"+
+        "<span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
+        break;
+      case "pt-flisol":
+        prjDesc.innerHTML = "<p>Meu trabalho neste projeto foi desenvolver a parte visual do site "+
+        "usando apenas CSS, baseado na estrutura HTML provida pelo tema 'blank' do CMS "+
+        "<a href='https://github.com/cercomp/weby' target='_blank'>Weby's</a>. Eu também fui "+
+        "responsável por todo o gerenciamento de conteúdo durante o evento.</p>"+
+        "<div class='tech'><span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
+        break;
+      case "pt-labsantaines":
+        prjDesc.innerHTML = "<p>Meu trablho neste projeto foi, primeiramente desenvolver um Template Joomla, "+
+        "usando o design desenvolvido por <a href='http://www.ederferreira.com.br/' target='_blank'>Eder Ferreira</a>. "+
+        "Depois, eu desenvolvi 2 componentes Joomla (inscrição de Curriculo e inscrição de Clientes) e 1 módulo "+
+        "(Busca de Código International de Doenças).</p>"+
         "<div class='tech'><span>PHP</span><span>Joomla</span><span>MySQL</span><span>HTML</span>"+
         "<span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
         break;
