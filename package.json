@@ -9,6 +9,7 @@
     "gulp-clean-css": "*"
   },
   "devDependencies": {
+    "jshint": "*",
     "gulp-clean-css": "*",
     "gulp": "*",
     "gulp-concat": "*",
