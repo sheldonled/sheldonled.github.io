@@ -2,12 +2,18 @@
 
   //Adding Listeners
   document.querySelectorAll("#prjDetails .close")[0].addEventListener('click',function(e){closeDetailProject();});
-
+ 
 //English
   try{
     //Easy GD
     document.querySelectorAll(".easygd img")[0].addEventListener('click',function(e){
       detailProject({"id":"easygd","name":"Easy GD","img":"assets/img/easygd.png","url":"http://github.sheldonled.com/easygd/"});
+    });
+  } catch (e){} //do nothing
+  try{
+    //Hey VR!
+    document.querySelectorAll(".heyvr img")[0].addEventListener('click',function(e){
+      detailProject({"id":"heyvr","name":"Hey VR!","img":"assets/img/mozvr.png","url":"http://github.sheldonled.com/heyvr"});
     });
   } catch (e){} //do nothing
   try{
@@ -204,6 +210,11 @@
         "to manage files on your Google Drive Account. It's just a simple project, "+
         "doesn't have special features. The main goal of this project is to show "+
         "how simple is to work with Google Drive API.</p>";
+        break;
+      case "heyvr":
+        prjDesc.innerHTML = "<p>It's a pool of examples using VR framworks. By the moment the only Framework "+
+        "used is <a href='https://aframe.io' target='_blank'>A-Frame</a>.</p> "+
+        "<p><a href='http://github.sheldonled.com/heyvr/myhelloworld.html' target='_blank'>See hello world example</a>.</p>";
         break;
       case "footnotes":
         prjDesc.innerHTML = "<p>A piece of JavaScript/JQuery code that shows notes about "+

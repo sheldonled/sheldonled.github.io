@@ -147,8 +147,9 @@ section.projects {
   border:none;
 }
 #detail-prjDesc {
-  margin-top: 20px;
+  margin: 20px auto 0;
   font-size: 1.2em;
+  max-width: 600px;
 }
 #detail-prjImg {
   display: block;
