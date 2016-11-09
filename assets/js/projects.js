@@ -103,6 +103,12 @@
     });
   } catch (e){} //do nothing
   try{
+    //Hey VR!
+    document.querySelectorAll(".pt-heyvr img")[0].addEventListener('click',function(e){
+      detailProject({"id":"pt-heyvr","name":"Hey VR!","img":"../assets/img/mozvr.png","url":"http://github.sheldonled.com/heyvr"});
+    });
+  } catch (e){} //do nothing
+  try{
     //Coplacar
     document.querySelectorAll(".pt-coplacar img")[0].addEventListener('click',function(e){
       detailProject({"id":"pt-coplacar","name":"Coplacar","img":"../assets/img/coplacar.png","url":"http://github.sheldonled.com/coplacar"});
@@ -287,6 +293,11 @@
         "para gerenciar arquivos na sua conta do Google Drive. Isto é um projeto simples, "+
         "não tem características especiais. O principal objetivo deste projeto é mostrar "+
         "o quão simples é trabalhar com a API Google Drive.</p>";
+        break;
+      case "pt-heyvr":
+        prjDesc.innerHTML = "<p>É apenas um repositório de exemplos usando biblitecas de Realidade Virtual. "+
+        "No momento a única biblioeca utilizada é o <a href='https://aframe.io' target='_blank'>A-Frame</a>.</p> "+
+        "<p><a href='http://github.sheldonled.com/heyvr/myhelloworld.html' target='_blank'>Veja meu 'hello world'</a>.</p>";
         break;
       case "pt-footnotes":
         prjDesc.innerHTML = "<p>Um pedaço de código JavaScript/JQuery que mostra notas sobre "+
