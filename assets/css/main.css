@@ -1,41 +1,23 @@
-.projects a,.projects a:visited,.projects a:link {
-  color: #FFF;
-}
-.projects a:hover {
-  color: #B495EA;
-  border-bottom: 1px solid #FFF;
-}
-
 /**************************************************
  * HEADER
  **************************************************/
-header.header {
-  background: url(../assets/img/code.jpg) no-repeat;
-  background-size: cover;
+header.header li::before {
+  content:"";
+  display: none;
 }
-header.header a:hover {
-  border-bottom: 2px solid #000;
-}
-header.header a {
-  color: rgb(0,0,0);
-}
-header.header a.active {
-  color: #FFF;
-  background: rgba(0,0,0,0.5);
-  padding: 0 5px;
-}
-header.header .logo  {
-  height: 50%;
-  width: auto;
-  margin: 10px auto;
-}
-header.header h1 {
-  font-size: 1.8em;
-  color: #FFF;
+header.header.projects {
+  padding: 0;
 }
 /**************************************************
  * PROJECTS
  **************************************************/
+section.projects a,section.projects a:visited,section.projects a:link {
+  color: #FFF;
+}
+section.projects a:hover {
+  color: #B495EA;
+  border-bottom: 1px solid #FFF;
+}
 section.projects {
   padding: 50px 0;
   background-color: #1C0A3C;
