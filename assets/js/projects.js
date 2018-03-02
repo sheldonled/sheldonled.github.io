@@ -233,10 +233,6 @@
         "<a href='https://gist.github.com/fmasanori/1288160dad16cc473a53' target='_blank'>World Cup in six lines of Python 3</a>, "+
         "I saw the link that retrieves the results of the matches in a json file, so I decided to make an app with it.</p>";
         break;
-      case "fgsl":
-        prjDesc.innerHTML = "<p>A webapp that shows information about a local event in Goiânia - Goiás, called"+
-        " <a href=http://fgsl.net' target='_blank'>FGSL (Fórum Goiano de Software Livre)</a>.</p> ";
-        break;
       case "playcompras":
         prjDesc.innerHTML = "<p>A webapp that allows users to add items in a list and see the total "+
         "money they'll waste.</p>";
@@ -247,44 +243,6 @@
       case "alfanotas":
         prjDesc.innerHTML = "<p>A webapp that allows students from "+
         "<a href='http://www.alfa.br' target='_blank'>Faculdade Alfa</a> calculate their grade.</p>";
-        break;
-      case "rap":
-        prjDesc.innerHTML = "<p>It's a kind of boilerplate, or Proof "+
-        "of Concept, of how to use REST with PHP and make an API to access using AngularJS</p>"+
-        "<p>RAP extends for REST AngularJS and PHP</p>";
-        break;
-      case "boletocheck":
-        prjDesc.innerHTML = "<p>It's a piece of PHP code that checks the sequence of numbers code "+
-        "of a bank slip and output the values so that you can check if it's all right with the bank slip itself.</p>";
-        break;
-      case "eticaonline":
-        prjDesc.innerHTML = "<p>My work on this project was to develop a system that gets information "+
-        "from a bunch of web services, and retrieves financial information about a particular person. "+
-        "I also developed the website, in which I used only pure PHP to perform the server side "+
-        "and pure HTML, JS and CSS to perform the Front end.</p>"+
-        "<div class='tech'><span>PHP</span><span>WordPress</span><span>MySQL</span><span>Interbase</span><span>HTML</span>"+
-        "<span>JavaScript</span><span>CSS</span></div>";
-        break;
-      case "semed":
-        prjDesc.innerHTML = "<p>My work on this project was to develop a WordPress Theme, "+
-        "based on the desing created by the client ideas.</p>"+
-        "<div class='tech'><span>PHP</span><span>WordPress</span><span>MySQL</span><span>HTML</span>"+
-        "<span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
-        break;
-      case "flisol":
-        prjDesc.innerHTML = "<p>My work on this project was to develop the visual of the website "+
-        "using just CSS, based on the HTML structure provided by "+
-        "<a href='https://github.com/cercomp/weby' target='_blank'>Weby's</a> blank theme. Also I "+
-        "was responsible for all content management during the event.</p>"+
-        "<div class='tech'><span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
-        break;
-      case "labsantaines":
-        prjDesc.innerHTML = "<p>My work on this project was first, to develop a Joomla Template, "+
-        "using the design developed by <a href='http://www.ederferreira.com.br/' target='_blank'>Eder Ferreira</a>. "+
-        "After, I developed 2 Joomla Components (Curriculum subscribe and Costumers subscribe) and one module "+
-        "(Disease Internacinal Code Searching).</p>"+
-        "<div class='tech'><span>PHP</span><span>Joomla</span><span>MySQL</span><span>HTML</span>"+
-        "<span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
         break;
 //Portuguese
 
@@ -310,10 +268,6 @@
         "<a href='https://gist.github.com/fmasanori/1288160dad16cc473a53' target='_blank'>Jogos da Copa do Mundo em seis linhas de Python 3</a>, "+
         "Eu vi que o link obtinha os resultados dos jogos em um arquivo JSON, então eu decidi fazer um App com isso.</p>";
         break;
-      case "pt-fgsl":
-        prjDesc.innerHTML = "<p>Uma WebApp que mostra informação sobre um evento local em Goiânia - Goiás, chamado"+
-        " <a href=http://fgsl.net' target='_blank'>FGSL (Fórum Goiano de Software Livre)</a>.</p> ";
-        break;
       case "pt-playcompras":
         prjDesc.innerHTML = "<p>Uma WebApp que permite usuários adicionarem itens em uma lista e verem o valor total "+
         "que eles irão gastar.</p>";
@@ -324,45 +278,6 @@
       case "pt-alfanotas":
         prjDesc.innerHTML = "<p>Uma WebApp que permite os estudantes da "+
         "<a href='http://www.alfa.br' target='_blank'>Faculdade Alfa</a> calcularem suas notas.</p>";
-        break;
-      case "pt-rap":
-        prjDesc.innerHTML = "<p>É uma espécie de boilerplate, ou Prova de conceito "+
-        "de como usar REST com PHP e fazer uma API para ser acessada utilizando AngularJS</p>"+
-        "<p>RAP é uma sigla para REST AngularJS and PHP</p>";
-        break;
-      case "pt-boletocheck":
-        prjDesc.innerHTML = "<p>É um pedaço de código em PHP que checa a linha digitável "+
-        "de um boleto e mostra os valores possíveis de serem extraídos, para que você possa "+
-        "checar a informação e verificar se a linha digitável está correta.</p>";
-        break;
-      case "pt-eticaonline":
-        prjDesc.innerHTML = "<p>Meu trabalho neste projeto foi desenvolver um sistema que obtem informação "+
-        "de vários web services, e retorna informações financeiras sobre uma pessoa ou empresa. "+
-        "Eu também desenvolvi o site, no qual foi usado apenas PHP puro no servidor "+
-        "e HTML, JS and CSS puro para o Front end. Ambas as partes sem nenhum framework ou biblioteca.</p>"+
-        "<div class='tech'><span>PHP</span><span>MySQL</span><span>Interbase</span><span>HTML</span>"+
-        "<span>JavaScript</span><span>CSS</span></div>";
-        break;
-      case "pt-semed":
-        prjDesc.innerHTML = "<p>Meu trabalho neste projeto foi desenvoler um tema para WordPress, "+
-        "baseado no design que eu criei de acordo com as ideias do cliente.</p>"+
-        "<div class='tech'><span>PHP</span><span>WordPress</span><span>MySQL</span><span>HTML</span>"+
-        "<span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
-        break;
-      case "pt-flisol":
-        prjDesc.innerHTML = "<p>Meu trabalho neste projeto foi desenvolver a parte visual do site "+
-        "usando apenas CSS, baseado na estrutura HTML provida pelo tema 'blank' do CMS "+
-        "<a href='https://github.com/cercomp/weby' target='_blank'>Weby's</a>. Eu também fui "+
-        "responsável por todo o gerenciamento de conteúdo durante o evento.</p>"+
-        "<div class='tech'><span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
-        break;
-      case "pt-labsantaines":
-        prjDesc.innerHTML = "<p>Meu trablho neste projeto foi, primeiramente desenvolver um Template Joomla, "+
-        "usando o design desenvolvido por <a href='http://www.ederferreira.com.br/' target='_blank'>Eder Ferreira</a>. "+
-        "Depois, eu desenvolvi 2 componentes Joomla (inscrição de Curriculo e inscrição de Clientes) e 1 módulo "+
-        "(Busca de Código International de Doenças).</p>"+
-        "<div class='tech'><span>PHP</span><span>Joomla</span><span>MySQL</span><span>HTML</span>"+
-        "<span>JavaScript</span><span>JQuery</span><span>CSS</span></div>";
         break;
       default:
         prjDesc.innerHTML = "<p>=)</p>"; 
