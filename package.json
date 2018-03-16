@@ -1,31 +1,27 @@
 {
-  "name": "sheldonled",
-  "version": "1.0.1",
-  "description": "Sheldon Led personal website",
-  "main": "gulpfile.js",
-  "readme" : "readme.md",
-  "dependencies": {
-    "gulp": "*",
-    "gulp-clean-css": "*"
-  },
-  "devDependencies": {
-    "jshint": "*",
-    "gulp-clean-css": "*",
-    "gulp": "*",
-    "gulp-concat": "*",
-    "gulp-uglify": "*",
-    "gulp-jshint": "*",
-    "gulp-util": "*",
-    "jshint-stylish": "*",
-    "gulp-watch": "*"
-  },
+  "name": "sheldonled.github.io",
+  "version": "2.0.0",
+  "description": "Sheldon Led projects website",
   "scripts": {
+    "task": "node taskrunner/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "eslint": "^4.18.2",
+    "node-sass": "^4.7.2",
+    "rollup": "^0.56.3",
+    "sass-lint": "^1.12.1",
+    "uglify-es": "^3.3.9"
+  },
   "repository": {
-  "type": "git",
-  "url": "git://github.com/sheldonled/sheldonled.github.io.git"
+    "type": "git",
+    "url": "git://github.com/sheldonled/sheldonled.github.io.git"
   },
   "author": "Sheldon Led",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
 }
