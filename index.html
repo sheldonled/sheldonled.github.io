@@ -19,7 +19,7 @@
   <meta property="og:type" content="blog"/>
   <meta property="og:description" content="Sheldon Led's personal web site."/>
   <!-- Style -->
-  <link href="dist/css/app.css?030320180153" rel="stylesheet" type="text/css" media="all" />
+  <link href="dist/css/app.css?170320180850" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
   <section class="top-pannel">
@@ -37,7 +37,7 @@
       <nav class="main-navigation">
         <a class="main-navigation__item" target="_blank" href="https://medium.com/@sheldonled">Blog</a>
         <a class="main-navigation__item" href="//github.sheldonled.com/talks">Talks</a>
-        <a class="main-navigation__item main-navigation__item--active" href="//github.sheldonled.com/projects">Projects</a>
+        <a class="main-navigation__item main-navigation__item--active" href="//github.sheldonled.com">Projects</a>
       </nav>
       <div class="config__button">
         <svg class="icon__settings"><use xlink:href="img/symbol-defs.svg#icon-settings"></use></svg>
@@ -88,12 +88,12 @@
     (function(w){var loadJS=function(src,cb){"use strict";var ref=w.document.querySelector("script");var script=w.document.createElement("script");script.src=src;script.async=true;ref.parentNode.insertBefore(script,ref);if(cb&&typeof cb==="function"){script.onload=cb}return script};w.loadJS=loadJS})(window);
     function supportEs6() {"use strict";try { eval("let foo = (x)=>x+1"); }catch (e) { return false; }return true;}
     if(supportEs6()) {
-      loadJS("dist/js/app.min.js?030320180153");
+      loadJS("dist/js/app.min.js?170320180850");
     } else {
       //strategy for old browsers
       loadJS("https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find",function(){
-        loadJS("lib/svgxuse.min.js?030320180153");
-        loadJS("dist/js/es5app.min.js?030320180153");
+        loadJS("lib/svgxuse.min.js?170320180850");
+        loadJS("dist/js/es5app.min.js?170320180850");
       });
     }
     /* load Google Analytics */
