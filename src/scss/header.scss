@@ -48,6 +48,11 @@
   text-decoration: none;
   @include grid-column(1, 2);
   @include grid-row(1);
+
+  &:hover,
+  &:focus {
+    outline: none;
+  }
 }
 
 .site-logo__text {
