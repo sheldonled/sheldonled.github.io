@@ -68,7 +68,7 @@
     max-height: 0;
     overflow: hidden;
     padding: 0 1rem;
-    transition: all .5s linear;
+    transition: all .5s ease-in;
     @include grid-column(1, 2);
     @include grid-row(2);
   }

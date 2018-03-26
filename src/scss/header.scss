@@ -46,7 +46,7 @@
   flex-flow: row;
   font-size: 3rem;
   text-decoration: none;
-  @include grid-column(1, 2);
+  @include grid-column(1);
   @include grid-row(1);
 
   &:hover,
@@ -78,14 +78,18 @@
 .main-navigation__item--active {
   border-bottom: .2rem solid $rgba-secondary-1-4;
 }
-
 .config__button {
   align-items: center;
+  align-self: center;
   background-color: transparent;
   display: flex;
   font-size: 1.5rem;
   justify-content: flex-end;
   margin: 0;
+  position: absolute;
+  right: 1rem;
+  top: .5rem;
+  z-index: 20;
   @include grid-column(2);
   @include grid-row(1);
 
@@ -94,7 +98,6 @@
     color: $black;
     cursor: pointer;
     outline: 2px dashed $oil;
-    z-index: 20;
   }
 
   .icon__settings {
@@ -120,7 +123,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  transition: all .5s linear;
+  transition: all .5s ease-in;
   width: 20rem;
   z-index: 10;
 }

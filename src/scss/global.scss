@@ -36,7 +36,7 @@ strong {
 
 a {
   color: inherit;
-
+  text-decoration: underline;
   &:visited {
     color: inherit;
   }
@@ -48,6 +48,7 @@ button:focus,
 a:hover,
 a:focus {
   color: $black;
+  cursor: pointer;
   outline: 2px dashed $oil;
 }
 
