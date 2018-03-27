@@ -14,7 +14,7 @@ export default () => {
   document.addEventListener("click", (event) => {
     const element = event.target;
 
-    showHideHandler(element, "icon__settings", "config__menu--open", "site-header", "config__menu");
+    showHideHandler(element, "config__button", "config__menu--open", "site-header", "config__menu");
     showHideHandler(element, "project__showmore", "project__description--open", "site-projects__item", "project__description");
   });
 };
