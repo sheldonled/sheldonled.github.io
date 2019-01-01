@@ -14,12 +14,12 @@
   <!-- Open Graph -->
   <meta property="og:title" content="Sheldon Led"/>
   <meta property="og:site_name" content="Sheldon Led"/>
-  <meta property="og:url" content="http://sheldonled.com"/>
-  <meta property="og:image" content="http://sheldonled.com/img/sheldonled-profilephoto.jpg"/>
+  <meta property="og:url" content="https://sheldonled.com"/>
+  <meta property="og:image" content="https://sheldonled.com/img/sheldonled-profilephoto.jpg"/>
   <meta property="og:type" content="blog"/>
   <meta property="og:description" content="Sheldon Led, site pessoal."/>
   <!-- Style -->
-  <link href="../dist/css/app.css?250320182259" rel="stylesheet" type="text/css" media="all" />
+  <link href="../dist/css/app.css?010120190000" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
   <section class="top-pannel">
@@ -51,7 +51,7 @@
   </header>
   <div class="site-wrapper">
     <section class="site-projects">
-      Carregando projetos...
+      Estou reorganizando meus projetos pessoais, e por enquanto não estou mostrando nada aqui. Se quiser ver mais pode <a target="_blank" href="https://github.com/sheldonled">dar uma olhada no meu github</a>.
     </section>
   </div>
   <footer class="site-footer">
@@ -79,23 +79,11 @@
       </a>
     </section>
     <section class="site-footer__message">
-      <p>Sheldon Led | 2018</p>
+      <p><a href="https://sheldonled.com">Sheldon Led</a> | 2019</p>
     </section>
   </footer>
   <!-- SCRIPTS Go here -->
   <script>
-    /* loadJS */
-    (function(w){var loadJS=function(src,cb){"use strict";var ref=w.document.querySelector("script");var script=w.document.createElement("script");script.src=src;script.async=true;ref.parentNode.insertBefore(script,ref);if(cb&&typeof cb==="function"){script.onload=cb}return script};w.loadJS=loadJS})(window);
-    function supportEs6() {"use strict";try { eval("let foo = (x)=>x+1"); }catch (e) { return false; }return true;}
-    if(supportEs6()) {
-      loadJS("../dist/js/app.min.js?250320182259");
-    } else {
-      //strategy for old browsers
-      loadJS("https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find",function(){
-        loadJS("../lib/svgxuse.min.js?250320182259");
-        loadJS("../dist/js/es5app.min.js?250320182259");
-      });
-    }
     /* load Google Analytics */
     loadJS("https://www.googletagmanager.com/gtag/js?id=UA-115864900-1", function() {
       window.dataLayer = window.dataLayer || [];
