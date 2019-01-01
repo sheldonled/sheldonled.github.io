@@ -3,17 +3,8 @@
   "version": "2.0.0",
   "description": "Sheldon Led projects website",
   "scripts": {
-    "task": "node taskrunner/index.js",
+    "task": "babel-node --only taskrunner.js,./src,./node_modules/taskrunner  taskrunner.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.0.0-beta.40",
-    "@babel/preset-env": "^7.0.0-beta.40",
-    "eslint": "^4.18.2",
-    "node-sass": "^4.7.2",
-    "rollup": "^0.56.3",
-    "sass-lint": "^1.12.1",
-    "uglify-es": "^3.3.9"
   },
   "repository": {
     "type": "git",
@@ -21,7 +12,19 @@
   },
   "author": "Sheldon Led",
   "license": "ISC",
-  "dependencies": {
-    "npm": "^5.7.1"
+  "bugs": {
+    "url": "https://github.com/sheldonled/sheldonled.github.io/issues"
+  },
+  "homepage": "https://github.com/sheldonled/sheldonled.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/node": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "eslint": "^4.19.1",
+    "node-sass": "^4.9.0",
+    "rollup": "^0.57.1",
+    "sass-lint": "^1.12.1",
+    "taskrunner": "git+https://github.com/sheldonled/taskrunner.git",
+    "uglify-es": "^3.3.9"
   }
 }

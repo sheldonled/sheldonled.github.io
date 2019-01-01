@@ -19,7 +19,7 @@
   <meta property="og:type" content="blog"/>
   <meta property="og:description" content="Sheldon Led's personal web site."/>
   <!-- Style -->
-  <link href="dist/css/app.css?010120190000" rel="stylesheet" type="text/css" media="all" />
+  <link href="dist/css/app.css?010120190001" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
   <section class="top-pannel">
@@ -51,8 +51,7 @@
   </header>
   <div class="site-wrapper">
     <section class="site-projects">
-        Estou reorganizando meus projetos pessoais, e por enquanto não estou mostrando nada aqui. Se quiser ver mais pode <a target="_blank" href="https://github.com/sheldonled">dar uma olhada no meu github</a>.
-        I'm reorganizing my personal projects, and for now I'm not showing anything here. If you want you can <a target="_blank" href="https://github.com/sheldonled">take a look at my github profile for more</a>.
+      I'm reorganizing my personal projects, and for now I'm not showing anything here. If you want you can <a target="_blank" href="https://github.com/sheldonled">take a look at my github profile for more</a>.
     </section>
   </div>
   <footer class="site-footer">
@@ -85,6 +84,18 @@
   </footer>
   <!-- SCRIPTS Go here -->
   <script>
+    /* loadJS */
+    (function(w){var loadJS=function(src,cb){"use strict";var ref=w.document.querySelector("script");var script=w.document.createElement("script");script.src=src;script.async=true;ref.parentNode.insertBefore(script,ref);if(cb&&typeof cb==="function"){script.onload=cb}return script};w.loadJS=loadJS})(window);
+    function supportEs6() {"use strict";try { eval("let foo = (x)=>x+1"); }catch (e) { return false; }return true;}
+    if(supportEs6()) {
+      loadJS("dist/js/app.min.js?010120190001");
+    } else {
+      //strategy for old browsers
+      loadJS("https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find",function(){
+        loadJS("lib/svgxuse.min.js?010120190001");
+        loadJS("dist/js/es5app.min.js?010120190001");
+      });
+    }
     /* load Google Analytics */
     loadJS("https://www.googletagmanager.com/gtag/js?id=UA-115864900-1", function() {
       window.dataLayer = window.dataLayer || [];

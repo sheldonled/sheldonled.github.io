@@ -1,9 +1,9 @@
-import loadProjects from "./prjLoader";
+//import loadProjects from "./prjLoader";
 import addListeners from "./listeners";
 import topPannel from "./topPannel";
 
 try{
-  loadProjects();
+  //loadProjects();
   addListeners();
   topPannel.init();
 }
